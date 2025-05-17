@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz Cumpleaños Brittany</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://i.imgur.com/b9q4N1k.jpg');
+      background-size: cover;
+      background-position: center;
+      font-family: 'Arial', sans-serif;
+      color: white;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+      padding-top: 60px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    .frases {
+      font-size: 24px;
+      max-width: 600px;
+      margin: 0 auto;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.3);
+    }
+
+    .astronauta {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      width: 150px;
+      animation: wave 2s infinite ease-in-out;
+    }
+
+    @keyframes wave {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(10deg); }
+    }
+
+    .typewriter {
+      display: inline-block;
+      border-right: 2px solid white;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 5s steps(60, end), blink 0.7s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="typewriter">Feliz Cumpleaños Brittany</h1>
+
+    <div class="frases">
+      <p class="typewriter" style="animation-delay: 1s; animation-duration: 5s;">Te quiero mucho, aunque a veces seas tonta.</p>
+      <p class="typewriter" style="animation-delay: 6s; animation-duration: 5s;">Espero que tu día esté lleno de risas, regalos y momentos especiales.</p>
+      <p class="typewriter" style="animation-delay: 11s; animation-duration: 5s;">¡Que cumplas muchos más con alegría y amor!</p>
+    </div>
+  </div>
+
+  <img class="astronauta" src="https://i.imgur.com/I7UVO5C.png" alt="Astronauta saludando">
+
+  <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Tu navegador no soporta el audio.
+  </audio>
+
+</body>
+</html>
